@@ -29,7 +29,6 @@
   - Output:  
   ```
     embeddings.pickle, train_set.pickle, test_set.pickle
- 
   ```
 - train.py:  
   - Execution:  
