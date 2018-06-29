@@ -33,8 +33,7 @@ with open('embeddings.pickle', 'rb') as handle:
 
 max_position = max(np.max(positionTrain1), np.max(positionTrain2))+1
 
-n_out = max(yTrain)+1
-train_y_cat = np_utils.to_categorical(yTrain, 19)
+Y_train = np_utils.to_categorical(yTrain, 19)
 
 
 distanceModel1_input = Input(shape = (positionTrain1.shape[1],))
